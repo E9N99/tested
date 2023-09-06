@@ -158,7 +158,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**هذا هو {ty} كـود جلسـة** \n\n`{string_session}` \n\n**مستخـرج مـن :** @TepthonSessionBot\n🍒 **ملاحظـة :** لا تشارك الكود لأحـد لأنـه يستطيع اختراق حسابك من خلالـه 🍑 ولا تنسى الانضمام بقناة السورس @E9N99 ."
+    text = f"**هذا هو {ty} كـود جلسـة** \n\n`{string_session}` \n\n**مستخـرج مـن :** @fza8bot\n🍒 **ملاحظـة :** لا تشارك الكود لأحـد لأنـه يستطيع اختراق حسابك من خلالـه 🍑 ولا تنسى الانضمام بقناة السورس @E9N99 ."
     try:
         if not is_bot:
             await client.send_message("me", text)

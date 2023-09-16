@@ -41,7 +41,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "Tepthon"
+      "value": "E9N99"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
